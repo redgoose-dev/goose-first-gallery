@@ -1,4 +1,7 @@
 <?php
+echo "서비스 준비중입니다.";
+exit;
+
 if (is_file('index.user.php'))
 {
 	require_once('index.user.php');
